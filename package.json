@@ -1,0 +1,38 @@
+{
+	"name": "devtree",
+	"version": "1.0.0",
+	"description": "DevTree Clone of LinkTree",
+	"keywords": [
+		"Express",
+		"Node",
+		"Typescript"
+	],
+	"homepage": "https://github.com/alexcareno/devtree#readme",
+	"bugs": {
+		"url": "https://github.com/alexcareno/devtree/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alexcareno/devtree.git"
+	},
+	"license": "ISC",
+	"author": "Alejandro Escareno",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.ts",
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"dependencies": {
+		"colors": "^1.4.0",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"mongoose": "^8.9.5"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	}
+}
